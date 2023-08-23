@@ -1,0 +1,43 @@
+{
+   "Discription": "Hyper Parameters",
+   "Learning_Method": {
+      "Neural_Network": {
+         "network_type": "GCNN",
+         "learning_task" : "Regression",
+         "callbacks": ["logger", "plotter", "checkpoint"],
+         "dense_layers" : [16, 16],
+         "graph_convolutional_layers" : [32, 32],
+         "graph_attention_layers" : [32, 32],
+         "graph_attention_heads" : 2,
+         "activation_fn": "relu",
+         "loss_fn": "mean_squared_error",
+         "metric": "mean_squared_error",
+         "regularizer": "None",
+         "penalty_rate": 0,
+         "w_initializer": "he_uniform",
+         "b_initializer": "zeros",
+         "optimizer":"adam",
+         "epochs": 1500,
+         "batch_size": 1,
+         "learning_rate": "adaptive",
+         "learning_rate_init":1e-3,
+         "alpha":1e-4,
+         "power_t": 0.5,
+         "shuffle": "True",
+         "random_state": 0,
+         "tolerance": 1e-3,
+         "verbose_1": "False",
+         "verbose_2": 2,
+         "warm_start": "True",
+         "momentum": 0.9,
+         "nesterovs_momentum": "True",
+         "early_stopping": "True",
+         "validation_fraction": 0.9,
+         "beta_1": 0.9,
+         "beta_2": 0.999,
+         "epsilon": 1e-8,
+         "n_iter_no_change": 20,
+         "max_fun": 15000
+      }
+   }
+}

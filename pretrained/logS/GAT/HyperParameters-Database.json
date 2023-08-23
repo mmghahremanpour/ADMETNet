@@ -1,0 +1,31 @@
+{
+   "Discription": "Database Parameters",
+   "Parameters": {
+      "molecular_property": "LogS",
+      "data_source": "Experiment",
+      "class_labels": [],
+      "featurizer": "MolGraph",
+      "shuffle": "True",
+      "bootstrap": "False",
+      "explicit_hydrogen" : "False",
+      "node_features": "True",
+      "edge_features": "False",
+      "ring_size": "True",
+      "aromaticity" : "True",
+      "atomic_hybridization" : "False",
+      "atom_descriptors" : "False",
+      "atomic_number" : "True",
+      "formal_charge" : "True",
+      "implicit_valence": "False",
+      "number_of_hydrogens": "True",
+      "atom_degree": "True",
+      "chirality": "False",
+      "bond_order": "True",
+      "bond_conjugation": "True",
+      "test_to_train_ratio": 0.8,
+      "morgan_fp_radius" : 2,
+      "atompair_fp_lenght": 4,
+      "fingerprint_nBits": 512,
+      "fingerprint_asBitVect": "True"
+      }
+}

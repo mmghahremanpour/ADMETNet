@@ -1,0 +1,8 @@
+
+echo $shell | grep -q csh && goto CSH
+
+source ADMETNet.bash
+return
+
+CSH:
+source ADMETNet.csh

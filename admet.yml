@@ -1,0 +1,20 @@
+name: ADMETNet
+channels:
+   - conda-forge
+   - anaconda
+   - rdkit
+   - openbabel
+   - defaults
+dependencies:
+   - Python>=3.7
+   - conda
+   - tensorflow
+   - scikit-learn
+   - rdkit
+   - openbabel
+   - matplotlib
+   - seaborn
+   - ipython
+   - numpy
+   
+   
