@@ -4,5 +4,5 @@ install:
 	python setup.py install
 
 clean:
-	/usr/bin/rm -rf build ADMETNet.egg-info dist
+	rm -rf build ADMETNet.egg-info dist
 
