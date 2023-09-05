@@ -1,3 +1,12 @@
+"""
+This source file is part of the ADMETNet package.
+
+Developer:
+    Mohammad M. Ghahremanpour
+    William L. Jorgensen Research Group
+    Chemistry Department
+    Yale University
+"""
 
 from admetnet.ML.BaseModel  import *
 from admetnet.ML.Models     import *

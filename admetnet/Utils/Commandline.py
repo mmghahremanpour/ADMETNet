@@ -1,3 +1,12 @@
+"""
+This source file is part of the ADMETNet package.
+
+Developer:
+    Mohammad M. Ghahremanpour
+    William L. Jorgensen Research Group
+    Chemistry Department
+    Yale University
+"""
 
 from admetnet.Utils.Imports import *
  
@@ -19,10 +28,11 @@ def commandline_options():
            prog='ADMETNet',
            formatter_class=RawDescriptionHelpFormatter,
            description="""
-            ADMETNet Version 1.0 
+            ADMETNet Version 1.0
+          Mohammad M. Ghahremanpour
       William L. Jorgensen Research Group
              Yale University
-                 2020-
+                 2020-2023
 
   """
   )

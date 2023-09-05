@@ -1,3 +1,12 @@
+"""
+This source file is part of the ADMETNet package.
+
+Developer:
+    Mohammad M. Ghahremanpour
+    William L. Jorgensen Research Group
+    Chemistry Department
+    Yale University
+"""
 
 from admetnet.Utils.Imports import *
 
@@ -13,9 +22,9 @@ class Status(Enum):
   
    @classmethod 
    def thank_you_note(cls):
-      print("\n%68s" % "Thank you for using DeepModeller")
+      print("\n%68s" % "Thank you for using ADMETNet")
       print("%65s"   % "Yale University (2021-)\n")
-      print("%90s"   % "DeepModeller is free software under the Gnu Public License v 2.");
+      print("%90s"   % "ADMETNet is free software under the Gnu Public License v 2.");
       print("%80s"   % "Read more at http://www.gnu.org/licenses/gpl-2.0.html");
 
    def print_line():
@@ -31,7 +40,7 @@ class Status(Enum):
 
    @classmethod
    def MoleculeWithNoSMILE(cls):
-      print("\n       ERROR!    DeepModeller needs a SMILE string to generate Rdkit MOL object.\n") 
+      print("\n       ERROR!    ADMETNet needs a SMILE string to generate Rdkit MOL object.\n") 
       cls.thank_you_note()
       sys.exit()
 
@@ -109,19 +118,19 @@ class Status(Enum):
 
    @classmethod
    def NotSupportedFeaturizer(cls, featurizer):
-      print("\n       ERROR!    DeepModeller dose not support %s as molecular featurizer!\n" % featurizer)
+      print("\n       ERROR!    ADMETNet dose not support %s as molecular featurizer!\n" % featurizer)
       cls.thank_you_note()
       sys.exit()
 
    @classmethod
    def UnsupportedHyperParameter(cls, hp):
-      print("\n       ERROR!    DeepModeller dose not support hyperparameter %s!\n" % hp)
+      print("\n       ERROR!    ADMETNet dose not support hyperparameter %s!\n" % hp)
       cls.thank_you_note()
       sys.exit()
 
    @classmethod
    def UnsupportedOptimizer(cls, optimizer):
-      print("\n       ERROR!    DeepModeller dose not support %s optimizer for training!\n" % optimizer)
+      print("\n       ERROR!    ADMETNet dose not support %s optimizer for training!\n" % optimizer)
       cls.thank_you_note()
       sys.exit()
 

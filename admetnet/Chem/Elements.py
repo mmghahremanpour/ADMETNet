@@ -1,3 +1,13 @@
+"""
+This source file is part of the ADMETNet package.
+
+Developer:
+    Mohammad M. Ghahremanpour
+    William L. Jorgensen Research Group
+    Chemistry Department
+    Yale University
+"""
+
 
 elements = \
 {'X':  {'Z': 0,  'M': 0}, 

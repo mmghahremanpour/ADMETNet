@@ -1,0 +1,9 @@
+﻿Molecule,SMILES,GCN,Uncertainty
+Benzene, C1=CC=CC=C1, -2.260, 0.724
+Benzoic acid, c1ccc(cc1)C(=O)O, -1.308, 0.351
+Benzophenone, O=C(C1=CC=CC=C1)C1=CC=CC=C1, -3.447, 0.394
+Benzotriazole, C1=CC=C2[NH]N=NC2=C1, -1.284, 0.843
+Bromobenzene, BrC1=CC=CC=C1, -2.485, 0.273
+Chlorobenzene, ClC1=CC=CC=C1, -2.555, 0.350
+cytosine, NC1=NC(=O)[NH]C=C1, -1.140, 0.555
+Decalin, C1CCC2CCCCC2C1, -6.062, 1.349

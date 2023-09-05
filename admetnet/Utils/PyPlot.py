@@ -1,4 +1,12 @@
+"""
+This source file is part of the ADMETNet package.
 
+Developer:
+    Mohammad M. Ghahremanpour
+    William L. Jorgensen Research Group
+    Chemistry Department
+    Yale University
+"""
 
 import matplotlib.pyplot as plt
 
