@@ -18,3 +18,9 @@ Make test will generate example/tes_predictions.csv. Compare the predicted value
 in this file with the ones in example/tes_GCN.csv, they must be identical. Otherwise,
 ADMETNet is not installed properly.
 ```
+
+**Notes**
+```
+- Make install may take some time depending on your system.
+- Executing source ADMETNetRC will define the ADMETNET env variable in your shell temporally. 
+```
