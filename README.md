@@ -3,7 +3,7 @@ A Neural Network Framework for AMDET Prediction.
 
 **Installation**
 ```
-- Install Anaconda
+- Install [Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html)
 - conda env create -f admet.yml
 - conda activate ADMETNet
 - Make install
@@ -14,7 +14,7 @@ A Neural Network Framework for AMDET Prediction.
 
 **Test**
 ```
-Make test will generate example/tes_predicitons.csv. Compare the predicted values 
+Make test will generate example/tes_predictions.csv. Compare the predicted values 
 in this file with the ones in example/tes_GCN.csv, they must be identical. Otherwise,
-ADMETNet is not installed properly
+ADMETNet is not installed properly.
 ```
