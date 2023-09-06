@@ -21,6 +21,6 @@ ADMETNet is not installed properly.
 
 **Notes**
 ```
-- Make install may take some time depending on your system.
+- Making the conda env  may take some time depending on your system.
 - Executing source ADMETNetRC will define the ADMETNET env variable in your shell temporally. 
 ```
