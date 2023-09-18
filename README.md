@@ -24,3 +24,15 @@ ADMETNet is not installed properly.
 - Making the conda env  may take some time depending on your system.
 - Executing source ADMETNetRC will define the ADMETNET env variable in your shell temporally. 
 ```
+
+**Execution**
+```
+Run solnet -h for help! but the code can be run as 
+
+$ solnet -if input_file.csv -of output_file.csv -nt GCN -dbp pretrained/logS/GCN/HyperParameters-Database.json
+
+$ solnet -is "c1ccccc1" -of output_file.csv -nt GAT -dbp pretrained/logS/GAT/HyperParameters-Database.json
+
+Please take a look at example/test.csv for formatting your input_file.csv.
+
+```
