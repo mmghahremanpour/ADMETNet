@@ -1,5 +1,6 @@
 # ADMETNet
-A Neural Network Framework for AMDET Prediction. 
+A Neural Network Framework for AMDET Prediction. The current version (1.0.0) can be only used 
+for predicting aqueous solubility of neutral organic molecules.
 
 **Installation**
 ```
