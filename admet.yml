@@ -4,7 +4,6 @@ channels:
    - anaconda
    - rdkit
    - openbabel
-   - defaults
 dependencies:
    - Python>=3.7
    - conda
