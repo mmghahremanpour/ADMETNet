@@ -148,7 +148,7 @@ class DMCI:
 
    def rdMol_from_structure(self):
       if Path(self._SDFfile).suffix == ".sdf":
-         self._rdMol = Chem.SDMolSupplier(self._SDFfile)
+         self._rdMol = Chem.SDMolSupplier(self._SDFfile)[0]
       else:
          Status.SDFfileNeeded()
    
